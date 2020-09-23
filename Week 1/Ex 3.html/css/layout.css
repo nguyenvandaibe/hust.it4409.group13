@@ -1,0 +1,33 @@
+.content {
+  min-width: 100vh;
+  width: 100vw;
+}
+
+.timeline {
+  background-color: azure;
+  width: 500px;
+}
+
+.timeline .timeline-header {
+  width: inherit;
+}
+
+.timeline .timeline-header .timeline-header-content {
+  min-height: 36px;
+  margin-bottom: 12px;
+  padding: 12px 16px 0px 16px;
+  display: flex;
+}
+
+.timeline .timeline-header .timeline-header-content .trigger-popup {
+  height: 20px;
+  width: 20px;
+  padding: 8px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.timeline .timeline-header .timeline-header-content .trigger-popup:hover {
+    border-radius: 50%;
+    background-color: lawngreen;
+}

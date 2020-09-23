@@ -1,0 +1,21 @@
+.center-content {
+  margin: auto;
+}
+
+.flex-content {
+  display: flex;
+}
+
+.no-decoration-link {
+  text-decoration: none;
+}
+
+/* #region Padding */
+.pl-8 {
+  padding-left: 8px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+/* #endregion */
