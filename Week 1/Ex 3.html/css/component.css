@@ -7,3 +7,29 @@
 .image-item {
   width: 500px;
 }
+
+/* #region emoji */
+.emoji-like {
+  color: blue;
+}
+
+.emoji-heart {
+  color: red;
+}
+
+.emoji-laugh {
+  color: yellow;
+}
+/* #endregion */
+
+.btn-react {
+  border: 0px;
+  height: 32px;
+  width: 100%;
+  background-color: white;
+}
+
+.btn-react:hover {
+  background-color: wheat;
+  border-radius: 10px;
+}

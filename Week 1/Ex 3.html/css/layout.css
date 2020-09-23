@@ -4,7 +4,6 @@
 }
 
 .timeline {
-  background-color: azure;
   width: 500px;
 }
 
@@ -34,12 +33,28 @@
 }
 /* #endregion */
 
-/* #region body */
+/* #region timeline-body */
 .timeline .timeline-body {
   width: inherit;
 }
 
 .timeline .timeline-body .timeline-body-text {
   padding: 12px 16px 12px 16px;
+}
+/* #endregion */
+
+/* #region timeline-reaction */
+.timeline-reaction {
+  padding: 12px 16px 0px 16px;
+}
+
+.timeline-reaction .reaction-analytic .number-comment {
+  margin-left: auto;
+}
+
+.timeline-reaction .action-react {
+  padding: 4px 0 4px 0;
+  height: 32px;
+  width: 100%;
 }
 /* #endregion */
