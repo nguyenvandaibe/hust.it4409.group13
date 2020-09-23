@@ -22,6 +22,7 @@
 }
 /* #endregion */
 
+/* #region button */
 .btn-react {
   border: 0px;
   height: 32px;
@@ -32,4 +33,9 @@
 .btn-react:hover {
   background-color: wheat;
   border-radius: 10px;
+}
+/* #endregion */
+
+hr {
+  color: gray;
 }
