@@ -8,6 +8,7 @@
   width: 500px;
 }
 
+/* #region header */
 .timeline .timeline-header {
   width: inherit;
 }
@@ -28,6 +29,17 @@
 }
 
 .timeline .timeline-header .timeline-header-content .trigger-popup:hover {
-    border-radius: 50%;
-    background-color: lawngreen;
+  border-radius: 50%;
+  background-color: lawngreen;
 }
+/* #endregion */
+
+/* #region body */
+.timeline .timeline-body {
+  width: inherit;
+}
+
+.timeline .timeline-body .timeline-body-text {
+  padding: 12px 16px 12px 16px;
+}
+/* #endregion */
